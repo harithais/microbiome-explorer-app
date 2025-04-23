@@ -5,7 +5,7 @@ import plotly.express as px
 st.set_page_config(page_title="Microbiome Explorer", layout="wide")
 
 # Load the cleaned dataset
-reference_df = pd.read_csv("/Users/haritharaghavan/Desktop/disbiome_with_titles.csv")
+reference_df = pd.read_csv("disbiome_with_titles.csv")
 
 st.title("Microbiome–Host Association Explorer")
 st.markdown("Upload a CSV of microbes or explore the full dataset. Filter, sort by dropdown, and click study titles to explore PubMed.")
